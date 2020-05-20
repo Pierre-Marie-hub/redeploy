@@ -1,0 +1,2 @@
+#/sbin/bash
+echo "FAIL2BAN : SART INSTALLATION"
