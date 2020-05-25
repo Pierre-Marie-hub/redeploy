@@ -12,10 +12,13 @@ bdd_password=k2yS5Fh{Rk/cgm;
 #APP
 domain_name_site1=
 ip_server=51.210.9.89
-site1_folder=/var/www/html/site1/
-site1_preprod_folder=/var/www/html/site1-preprod/
+
+site1_folder=/var/www/html/
+site1_preprod_folder=/var/www/html/preprod/
 git_repository=git@github.com:Pierre-Marie-hub/MonPetitCahier.git
 
+sudo mkdir $site1_folder 
+sudo chown -R $linux_user $site1_folder
 cd $deploy_folder
 
 #CREATE LOG DIRECTORY

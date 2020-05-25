@@ -1,0 +1,47 @@
+**logs file**/home/pierre-marie/developpements/mon-petit-cahier.fr/deploy/redeploy/log/installation_logs_20200525161920.txt
+total 28
+4 drwxrwxr-x 6 pierre-marie pierre-marie 4096 mai   25 15:19 .
+4 drwxrwxr-x 3 pierre-marie pierre-marie 4096 mai   25 12:58 ..
+4 drwxrwxr-x 2 pierre-marie pierre-marie 4096 mai   25 14:56 config
+4 drwxrwxr-x 8 pierre-marie pierre-marie 4096 mai   25 15:23 .git
+4 drwxr-xr-x 2 pierre-marie root         4096 mai   25 16:19 log
+4 -rw-rw-r-- 1 pierre-marie pierre-marie 1070 mai   25 15:05 main.sh
+4 drwxrwxr-x 2 pierre-marie pierre-marie 4096 mai   25 13:46 packages
+INITIALISATION ENDED
+VARIABLES : 
+20200525161920
+/home/pierre-marie/developpements/mon-petit-cahier.fr/deploy/redeploy/log/installation_logs_20200525161920.txt
+site1
+k2yS5Fh{Rk/cgm
+
+51.210.9.89
+/var/www/html/site1/
+/var/www/html/site1-preprod/
+git@github.com:Pierre-Marie-hub/MonPetitCahier.git
+****START INSTALLATION****
+Firewall
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+ufw est déjà la version la plus récente (0.36-6).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 33 non mis à jour.
+État : actif
+
+Vers                       Action      De
+----                       ------      --
+80                         ALLOW       Anywhere                  
+443                        ALLOW       Anywhere                  
+80 (v6)                    ALLOW       Anywhere (v6)             
+443 (v6)                   ALLOW       Anywhere (v6)             
+
+Omission de l'ajout de la règle existante
+Omission de l'ajout de la règle existante (v6)
+Omission de l'ajout de la règle existante
+Omission de l'ajout de la règle existante (v6)
+Le pare-feu est actif et lancé au démarrage du système
+fail2ban
+server lamp
+application
+SSL CERTIFICATION
+AFTER DEPLOY TESTS
+reboot

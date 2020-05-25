@@ -1,0 +1,81 @@
+**logs file**/home/pierre-marie/developpements/mon-petit-cahier.fr/deploy/redeploy/log/installation_logs_20200525164657.txt
+total 28
+4 drwxrwxr-x 6 pierre-marie pierre-marie 4096 mai   25 15:19 .
+4 drwxrwxr-x 3 pierre-marie pierre-marie 4096 mai   25 12:58 ..
+4 drwxrwxr-x 2 pierre-marie pierre-marie 4096 mai   25 14:56 config
+4 drwxrwxr-x 8 pierre-marie pierre-marie 4096 mai   25 15:23 .git
+4 drwxr-xr-x 2 pierre-marie root         4096 mai   25 16:46 log
+4 -rw-rw-r-- 1 pierre-marie pierre-marie 1070 mai   25 15:05 main.sh
+4 drwxrwxr-x 2 pierre-marie pierre-marie 4096 mai   25 13:46 packages
+INITIALISATION ENDED
+VARIABLES : 
+20200525164657
+/home/pierre-marie/developpements/mon-petit-cahier.fr/deploy/redeploy/log/installation_logs_20200525164657.txt
+site1
+k2yS5Fh{Rk/cgm
+
+51.210.9.89
+/var/www/html/
+/var/www/html/preprod/
+git@github.com:Pierre-Marie-hub/MonPetitCahier.git
+****START INSTALLATION****
+Firewall
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+ufw est déjà la version la plus récente (0.36-6).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 33 non mis à jour.
+État : actif
+
+Vers                       Action      De
+----                       ------      --
+80                         ALLOW       Anywhere                  
+443                        ALLOW       Anywhere                  
+80 (v6)                    ALLOW       Anywhere (v6)             
+443 (v6)                   ALLOW       Anywhere (v6)             
+
+Omission de l'ajout de la règle existante
+Omission de l'ajout de la règle existante (v6)
+Omission de l'ajout de la règle existante
+Omission de l'ajout de la règle existante (v6)
+Le pare-feu est actif et lancé au démarrage du système
+fail2ban
+server lamp
+application
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+composer est déjà la version la plus récente (1.10.1-1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 33 non mis à jour.
+total 108
+4 drwxr-xr-x 22 pierre-marie pierre-marie 4096 mai   25 15:15 .
+4 drwxr-xr-x  4 root         root         4096 mai   23 18:40 ..
+4 -rw-------  1 pierre-marie pierre-marie  655 mai   25 14:59 .bash_history
+4 -rw-r--r--  1 pierre-marie pierre-marie  220 mai   23 18:40 .bash_logout
+4 -rw-r--r--  1 pierre-marie pierre-marie 3771 mai   23 18:40 .bashrc
+4 drwxr-xr-x  2 pierre-marie pierre-marie 4096 mai   23 19:02 Bureau
+4 drwx------ 17 pierre-marie pierre-marie 4096 mai   25 16:44 .cache
+4 drwx------ 14 pierre-marie pierre-marie 4096 mai   25 16:44 .config
+4 drwxrwxr-x  3 pierre-marie pierre-marie 4096 mai   25 12:56 developpements
+4 drwxr-xr-x  2 pierre-marie pierre-marie 4096 mai   23 19:02 Documents
+4 -rw-rw-r--  1 pierre-marie pierre-marie   64 mai   25 13:48 .gitconfig
+4 drwx------  3 pierre-marie pierre-marie 4096 mai   23 19:25 .gnupg
+4 drwxr-xr-x  2 pierre-marie pierre-marie 4096 mai   25 00:04 Images
+4 drwx------  3 pierre-marie pierre-marie 4096 mai   23 19:02 .local
+4 drwxr-xr-x  2 pierre-marie pierre-marie 4096 mai   23 19:02 Modèles
+4 drwxrwxr-x 10 pierre-marie pierre-marie 4096 mai   25 15:15 MonPetitCahier
+4 drwx------  5 pierre-marie pierre-marie 4096 mai   23 19:16 .mozilla
+4 drwxr-xr-x  2 pierre-marie pierre-marie 4096 mai   23 19:02 Musique
+4 drwx------  3 pierre-marie pierre-marie 4096 mai   25 13:01 .pki
+4 -rw-r--r--  1 pierre-marie pierre-marie  807 mai   23 18:40 .profile
+4 drwxr-xr-x  2 pierre-marie pierre-marie 4096 mai   23 19:02 Public
+4 drwxr-xr-x  7 pierre-marie pierre-marie 4096 mai   25 13:01 snap
+4 drwx------  2 pierre-marie pierre-marie 4096 mai   25 15:08 .ssh
+0 -rw-r--r--  1 pierre-marie pierre-marie    0 mai   25 12:55 .sudo_as_admin_successful
+4 drwxr-xr-x  2 pierre-marie pierre-marie 4096 mai   23 19:37 Téléchargements
+4 drwx------  6 pierre-marie pierre-marie 4096 mai   23 19:21 .thunderbird
+4 drwxr-xr-x  2 pierre-marie pierre-marie 4096 mai   23 19:02 Vidéos
+4 drwxrwxr-x  3 pierre-marie pierre-marie 4096 mai   25 13:01 .vscode
+SSL CERTIFICATION
+AFTER DEPLOY TESTS
+reboot
