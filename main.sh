@@ -69,7 +69,7 @@ source $deploy_directory/packages/server_lamp.sh
 
 echo "application" >> $installation_log
 source $deploy_directory/packages/deploy_site_1.sh
-#source deploy_site2.sh
+
 
 echo "SSL CERTIFICATION" >> $installation_log
 
