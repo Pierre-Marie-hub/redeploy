@@ -2,7 +2,7 @@
 #YOU HAVE TO CREATE A FOLDER NAMED /home/<username>/deploy before running script
 
 
-source /config/config.sh
+source config/config.sh
 
 
 echo "VARIABLES : " >> $installation_log

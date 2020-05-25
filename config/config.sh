@@ -14,7 +14,7 @@ domain_name_site1=
 ip_server=51.210.9.89
 site1_folder=/var/www/html/site1/
 site1_preprod_folder=/var/www/html/site1-preprod/
-git_repository=
+git_repository=git@github.com:Pierre-Marie-hub/MonPetitCahier.git
 
 cd $deploy_folder
 
@@ -23,8 +23,8 @@ echo "LOG'S DIRECTORY CREATION"
 if [ -e $installation_log_directory ]; then
   echo "File $installation_log_directory already exists!"
 else
-  sudo mkdir log/
-  #sudo chown -R su2tech:ubuntu $installation_log_directory/*
+  mkdir log/
+
 fi
 
 #CREATE LOG FILE
@@ -37,7 +37,7 @@ else
   echo "**logs file**$installation_log" > $installation_log
     touch $installation_log
     echo "ok"
-  #sudo chown -R su2tech:ubuntu $installation_directory/*
+    sudo chown -R $linux_user $installation_log_directory
 fi
 
 ls -lsa >> $installation_log
