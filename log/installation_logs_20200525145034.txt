@@ -1,0 +1,31 @@
+**logs file**/home/pierre-marie/developpements/mon-petit-cahier.fr/deploy/redeploy/log/installation_logs_20200525145034.txt
+total 24
+4 drwxrwxr-x 5 pierre-marie pierre-marie 4096 mai   25 13:51 .
+4 drwxrwxr-x 3 pierre-marie pierre-marie 4096 mai   25 12:58 ..
+4 drwxrwxr-x 8 pierre-marie pierre-marie 4096 mai   25 13:49 .git
+4 drwxr-xr-x 2 root         root         4096 mai   25 14:50 log
+4 -rw-rw-r-- 1 pierre-marie pierre-marie 2134 mai   25 14:07 main.sh
+4 drwxrwxr-x 2 pierre-marie pierre-marie 4096 mai   25 13:46 packages
+INITIALISATION ENDED
+VARIABLES : 
+20200525145034
+/home/pierre-marie/developpements/mon-petit-cahier.fr/deploy/redeploy/log/installation_logs_20200525145034.txt
+site1
+k2yS5Fh{Rk/cgm
+
+51.210.9.89
+/var/www/html/site1/
+/var/www/html/site1-preprod/
+****START INSTALLATION****
+Firewall
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+ufw est déjà la version la plus récente (0.36-6).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 33 non mis à jour.
+fail2ban
+server lamp
+application
+SSL CERTIFICATION
+AFTER DEPLOY TESTS
+reboot
